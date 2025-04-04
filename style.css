@@ -49,6 +49,7 @@ header{
  gap: 200px;
  padding-top: 110px;
 }
+
 .linha{
     max-width: 340px;
     max-height: 290px;
@@ -103,52 +104,73 @@ article{
     margin: auto;
     max-width: 300px;
     max-height: 300px;
+    border: 10px solid #D2DAFF;
+    border-radius: 10px;
 }
 
 .b{
     margin: auto;
     max-width: 300px;
     max-height: 300px;
+    border: 10px solid #D2DAFF;
+    border-radius: 10px;
 }
 .c{
     margin: auto;
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 310px;
+    max-height: 310px;
+    border: 10px solid #D2DAFF;
+    border-radius: 10px;
 }
 .d{
     margin: auto;
-    max-width: 340px;
-    max-height: 360px;
+    max-width: 320px;
+    max-height: 340px;
+    border: 10px solid #D2DAFF;
+    border-radius: 10px;
 }
 .e{
     margin: auto;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
+    border: 10px solid #D2DAFF;
+    border-radus: 10px;
+    margin-right: 35px;
 }
 .f{
     margin: auto;
     max-width: 300px;
     max-height: 300px;
+    border: 10px solid #D2DAFF;
+    border-radus: 10px;
 }
 .g{
     margin: auto;
     max-width: 350px;
     max-height: 400px;
+    border: 10px solid #D2DAFF;
+    border-radus: 10px;
 }
 .h{
     margin: auto;
     max-width: 350px;
     max-height: 350px;
+    border: 10px solid #D2DAFF;
+    border-radus: 10px;
 }
 .i{
     margin: auto;
     max-width: 350px;
     max-height: 350px;
+    border: 10px solid #D2DAFF;
+    border-radius: 10px;
 }
 .j{
     margin: auto;
     max-width: 300px;
     max-height: 300px;
+    border: 10px solid #D2DAFF;
+    border-radus: 10px;
 }
 
 .video{
@@ -172,3 +194,15 @@ article{
 footer{
     justify-self: center;
 }
+
+.ContainerSonhos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 0px;
+    column-gap: 0px;
+    margin-right: 90px;
+    
+}
+
